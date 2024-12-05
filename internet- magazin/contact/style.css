@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.size-6{
+    width: 30px;
+    height: 30px;
+}
+
+.contact{
+    border-bottom: 2px solid gray;
+}
+.blocks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 70px;
+}
+.blockLeft{
+    width: 28%;
+    height: 415px;
+    padding: 30px 40px;
+    box-shadow: 0px 0px 5px 3px gainsboro;
+}
+.blockRight{
+    width: 50%;
+    height: 415px;
+    padding: 30px 50px;
+    box-shadow: 0px 0px 5px 3px gainsboro;
+}
+.nav1{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.nav2{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.blockEnd{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    text-align: center;
+    margin-top: 90px;
+}
+.blocksEnd{
+    background-color: #000000;
+    color: white;
+    width: 100%;
+    padding: 50px 80px;
+    margin-top: 180px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text3{
+    position: relative;
+    top: 7px;
+}
+.text2{
+    position: relative;
+    top: 10px;
+}
+.text4{
+    position: relative;
+    top: 7px;
+}
+.text5{
+    position: relative;
+    top: 5px;
+}
+.text5 img{
+    width: 140px;
+    position: relative;
+    top: 20px;
+    right: 5px;
+}
+.inputs{
+    display: flex;
+    position: relative;
+    right: 30px;
+    gap: 20px;
+}
+.inputs input{
+    width: 180px;
+    height: 40px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+}
+
+.h33{
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+.h44{
+    letter-spacing: 0.8px;
+    margin-bottom: 5px;
+}
+.h55{
+    letter-spacing: 1.2px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.text1{
+    margin-left: -30px;
+}
+.text2{
+    margin-left: -30px;
+}
+.text3{
+    margin-left: -30px;
+}
+.text4{
+    margin-left: -30px;
+}
+.text5{
+    margin-left: -30px;
+}
+.blocksEnd{
+    width: 100%;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    padding: 50px 80px;
+    margin-top: 327px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text3{
+    position: relative;
+    top: 7px;
+    /* margin: 50px; */
+}
+.text2{
+    position: relative;
+    top: 10px;
+}
+.text4{
+    position: relative;
+    top: 7px;
+}
+.text5{
+    position: relative;
+    top: -30px;
+}
+.text5 img{
+    width: 140px;
+    position: relative;
+    top: 20px;
+    right: 5px;
+}
+.imgfast{
+    margin-left: 40px;
+}
+.nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 40px;
+    box-shadow: 0px 0px 5px 3px gray;
+    background-color: white;
+    position: fixed;
+    top: 1px;
+    z-index: 5;
+
+}
+.size-7{
+    width: 30px;
+    /* margin-left: 100px; */
+}
+.size-8{
+    width: 30px;
+    /* margin-left: 100px; */
+}
+.size-9{
+    width: 30px;
+    margin-right: 100px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.center a{
+    text-decoration: none;
+    color: black;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.inpSearch{
+    width: 200px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: black;
+    padding: 5px 15px;
+    margin-right: 50px;
+}

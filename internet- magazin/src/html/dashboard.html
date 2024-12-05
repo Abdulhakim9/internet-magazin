@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/dashboard.css">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="divleft">
+            <img src="../../img/Group 1116606595 (1).png" alt="">
+            <input type="search" class="search" placeholder="Search...">
+        </div>
+        <div class="divright">
+            <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-9">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0M3.124 7.5A8.969 8.969 0 0 1 5.292 3m13.416 0a8.969 8.969 0 0 1 2.168 4.5" />
+                </svg>
+            </span>
+            <span><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="size-8">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M17.982 18.725A7.488 7.488 0 0 0 12 15.75a7.488 7.488 0 0 0-5.982 2.975m11.963 0a9 9 0 1 0-11.963 0m11.963 0A8.966 8.966 0 0 1 12 21a8.966 8.966 0 0 1-5.982-2.275M15 9.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                </svg>
+            </span>
+            <select name="" id="" class="select1">
+                <option value="Randhir kumar">Randhir kumar</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="block">
+        <div class="left">
+            <div class="Dashboard bar"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25" />
+                </svg>
+                <a href="./dashboard.html" class="dashboard">Dashboard</a>
+            </div>
+            <div class="orders bar"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0ZM3.75 12h.007v.008H3.75V12Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm-.375 5.25h.007v.008H3.75v-.008Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
+                </svg>
+
+                <a  class="order">Orders</a>
+            </div>
+            <div class="products bar"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M9.568 3H5.25A2.25 2.25 0 0 0 3 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 0 0 5.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 0 0 9.568 3Z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6Z" />
+                </svg>
+                <a href="../html/products.html" class="product">Products</a>
+            </div>
+            <div class="category bar"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                    stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M2.25 12.75V12A2.25 2.25 0 0 1 4.5 9.75h15A2.25 2.25 0 0 1 21.75 12v.75m-8.69-6.44-2.12-2.12a1.5 1.5 0 0 0-1.061-.44H4.5A2.25 2.25 0 0 0 2.25 6v12a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18V9a2.25 2.25 0 0 0-2.25-2.25h-5.379a1.5 1.5 0 0 1-1.06-.44Z" />
+                </svg>
+                <a href="../html/categories.html" class="categorys">Other</a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="bolo">
+                <div class="sxema"><img src="../../img/fc3noor2.png" class="sxamas"></img></div>
+                <!-- <div class="csd">
+                    <div class="topselling">
+                        <div class="healthcare">
+                            <h3 class="selling">Top selling products</h3>
+                        </div>
+                        <h4 class="see all">See All =></h4>
+                    </div>
+                    <div class="blocks">
+                        <img src="../../img/div.MuiBox-root.png" alt="">
+                        <div class="divText1">
+
+                            <h4>Healthcare Erbology</h4>
+
+                            <h4>in Accessories</h4>
+                        </div>
+                        <div>
+                            <h4>13,153</h4>
+                            <h4>in sales</h4>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="top-products"> -->
+                    <!-- <div class="header">
+                        <h1>Top selling products</h1>
+                        <a href="#" class="see-all">See All →</a>
+                    </div> -->
+                    <div class="products-list">
+                        <div class="product-item">
+                            <img src="../../img/div.MuiBox-root.png" alt="Healthcare Erbology">
+                            <div class="product-info">
+                                <h2>Healthcare Erbology</h2>
+                                <p class="category">in Accessories</p>
+                            </div>
+                            <p class="sales">13,153 <span>in sales</span></p>
+                        </div>
+                        <div class="product-item">
+                            <img src="../../img/div.MuiBox-root.png" alt="Healthcare Erbology">
+                            <div class="product-info">
+                                <h2>Healthcare Erbology</h2>
+                                <p class="category">in Accessories</p>
+                            </div>
+                            <p class="sales">13,153 <span>in sales</span></p>
+                        </div>
+                        <div class="product-item">
+                            <img src="../../img/div.MuiBox-root.png" alt="Healthcare Erbology">
+                            <div class="product-info">
+                                <h2>Healthcare Erbology</h2>
+                                <p class="category">in Accessories</p>
+                            </div>
+                            <p class="sales">13,153 <span>in sales</span></p>
+                        </div>
+                        <div class="product-item">
+                            <img src="../../img/div.MuiBox-root.png" alt="Healthcare Erbology">
+                            <div class="product-info">
+                                <h2>Healthcare Erbology</h2>
+                                <p class="category">in Accessories</p>
+                            </div>
+                            <p class="sales">13,153 <span>in sales</span></p>
+                        </div>
+                        
+                    </div>
+                <!-- </div> -->
+            </div>
+        </div>
+        <div class="poyon">
+            <div class="table1">
+                <h3 class="recent">Recent Transactions</h3>
+                <table class="tables">
+                    <thead>
+                        <tr class="trth">
+                            <th class="names">Name</th>
+                            <th class="dates">Date</th>
+                            <th class="amounts">Amount</th>
+                            <th class="statuses">Status</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbody">
+
+                    </tbody>
+                </table>
+                <!-- <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Units</th>
+                        </tr>
+                    </thead>
+                    <tbody class="tbodys">
+
+                    </tbody>
+                </table> -->
+                
+            </div>
+            <div class="table2">
+                <div class="products-container">
+                    <h1>Top Products by Units Sold</h1>
+                    <table class="products-table">
+                        <!-- <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Price</th>
+                                <th>Units</th>
+                            </tr>
+                        </thead>
+                        <tbody> -->
+                            <tr>
+                                <td>
+                                    <div class="product">
+                                        <span class="image-placeholder"></span>
+                                        <span class="namespan">Men Grey Hoodie</span>
+                                    </div>
+                                </td>
+                                <td>$49.90</td>
+                                <td>204</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="product">
+                                        <span class="image-placeholder"></span>
+                                        <span class="namespan">Women Striped T-Shirt</span>
+                                    </div>
+                                </td>
+                                <td>$34.90</td>
+                                <td>155</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="product">
+                                        <span class="image-placeholder"></span>
+                                        <span class="namespan">Wome White T-Shirt</span>
+                                    </div>
+                                </td>
+                                <td>$40.90</td>
+                                <td>120</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="product">
+                                        <span class="image-placeholder"></span>
+                                        <span class="namespan">Men White T-Shirt</span>
+                                    </div>
+                                </td>
+                                <td>$49.90</td>
+                                <td>204</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <div class="product">
+                                        <span class="image-placeholder"></span>
+                                        <span class="namespan">Women Red T-Shirt</span>
+                                    </div>
+                                </td>
+                                <td>$34.90</td>
+                                <td>155</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <script type="module" src="../js/dashboard/main2.js"></script>
+</body>
+
+</html>

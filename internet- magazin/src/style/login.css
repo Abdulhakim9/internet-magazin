@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+}
+.block{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+.left{
+    background-color: #1C2536;
+    color: #1C2536;
+    width: 50%;
+}
+.right{
+    background-color: #F7F7F7;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.leftimg{
+    margin-left: 50px;
+    /* margin-top: 260px; */
+    width: 300px;
+}
+.lefttext1{
+    color: white;
+    font-size: 18px;
+    font-weight: 100;
+    margin-left: 50px;
+    margin-top: 260px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+
+.log_in{
+    font-size: 24px;
+    font-weight: 100;
+    margin-left: -300px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email{
+    padding: 12px;
+    width: 350px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+.password{
+    padding: 12px;
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px solid gray;
+}
+.forgot_pass{
+    text-decoration: none;
+    margin-left: 130px;
+    color: rgb(22, 58, 223);
+}
+.divrigth{
+    margin-left: 50px;
+    margin-top: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login_btn{
+    padding: 12px;
+    width: 375px;
+    font-size: 15px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    margin-top: 15px;
+    background-color: rgb(52, 87, 243);
+}
+.login_btn:hover{
+    background-color: rgb(29, 65, 207);
+}

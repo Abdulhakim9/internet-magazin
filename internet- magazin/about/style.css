@@ -1,0 +1,224 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.size-6{
+    width: 30px;
+    height: 30px;
+}
+
+.about{
+    border-bottom: 2px solid gray;
+}
+.blocks{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.blockLeft{
+    width: 30%;
+}
+.boxs{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+.boxOne{
+    border: 2px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    width: 18%;
+    padding: 25px 10px;
+}
+.boxTwo{
+    background-color: rgb(215, 40, 40);
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    width: 18%;
+    padding: 25px 10px;
+}
+.boxThree{
+    border: 2px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    width: 18%;
+    padding: 25px 10px;
+}
+.boxFour{
+    border: 2px solid gray;
+    border-radius: 5px;
+    text-align: center;
+    width: 18%;
+    padding: 25px 10px;
+}
+.imgs{
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    gap: 40px;
+    width: 95%;
+    margin: auto;
+}
+.blockEnd{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    text-align: center;
+    margin-top: 90px;
+}
+.text3{
+    position: relative;
+    top: 7px;
+}
+.text2{
+    position: relative;
+    top: 10px;
+}
+.text4{
+    position: relative;
+    top: 7px;
+}
+.text5{
+    position: relative;
+    top: 5px;
+}
+.text5 img{
+    width: 140px;
+    position: relative;
+    top: 20px;
+    right: 5px;
+}
+
+.h33{
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+.h44{
+    letter-spacing: 0.8px;
+    margin-bottom: 5px;
+}
+.h55{
+    letter-spacing: 1.2px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+.text1{
+    margin-left: -30px;
+}
+.text2{
+    margin-left: -30px;
+}
+.text3{
+    margin-left: -30px;
+}
+.text4{
+    margin-left: -30px;
+}
+.text5{
+    margin-left: -0px;
+}
+.blocksEnd{
+    width: 100%;
+    align-items: center;
+    background-color: #000000;
+    color: white;
+    padding: 50px 80px;
+    margin-top: 327px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.text3{
+    position: relative;
+    top: 7px;
+    /* margin: 50px; */
+}
+.text2{
+    position: relative;
+    top: 10px;
+}
+.text4{
+    position: relative;
+    top: 7px;
+}
+.text5{
+    position: relative;
+    top: -30px;
+}
+.text5 img{
+    width: 140px;
+    position: relative;
+    top: 20px;
+    right: 5px;
+}
+.blocks{
+    margin-top: 20px;
+}
+.nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 5px 40px; */
+    box-shadow: 0px 0px 5px 3px gray;
+    background-color: white;
+    position: fixed;
+    top: 1px;
+    z-index: 5;
+}
+.imgfast{
+    margin-left: 40px;
+}
+.table{
+    display: none;
+    width: 30px;
+    height: 25px;
+}
+.size-7{
+    width: 30px;
+    /* margin-left: 100px; */
+}
+.size-8{
+    width: 30px;
+    /* margin-left: 100px; */
+}
+.size-9{
+    width: 30px;
+    margin-right: 100px;
+}
+.center{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.center a{
+    text-decoration: none;
+    color: black;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.inpSearch{
+    width: 200px;
+    height: 35px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    color: black;
+    padding: 5px 15px;
+    margin-right: 50px;
+}
